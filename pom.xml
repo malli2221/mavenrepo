@@ -32,9 +32,9 @@
             <url>http://10.128.0.10:8081/repository/student-rel/</url>
         </repository>
         <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://10.128.0.10:8081/repository/student-snap/</url>
+            <id>devenv</id>
+            <name>Devenv</name>
+            <url>http://localhost:8081/nexus/content/repositories/devenv/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
