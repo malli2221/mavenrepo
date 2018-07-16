@@ -26,11 +26,11 @@
     </plugins>
   </build>
    <distributionManagement>
-        <repository>
+        <ReleaseRepository>
             <id>devrelease</id>
             <name>Devenv</name>
             <url>http://localhost:8081/repository/devrelease/</url>
-        </repository>
+        </ReleaseRepository>
      <snapshotRepository>
             <id>devsnapshot</id>
             <name>Internal Snapshot Releases</name>
