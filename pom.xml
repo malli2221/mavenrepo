@@ -26,14 +26,10 @@
     </plugins>
   </build>
    <distributionManagement>
-          <snapshotRepository>
-            <id>Qatest</id>
-            <name>Devenv</name>
-            <url>http://localhost:8081/repository/Qatest/</url>
-        </snapshotRepository>
+          
      <snapshotRepository>
             <id>devsnapshot</id>
-            <name>Internal Snapshot Releases</name>
+            <name>devsnapshot</name>
             <url>http://localhost:8081/repository/devsnapshot/</url>
         </snapshotRepository>
        
