@@ -27,10 +27,15 @@
   </build>
    <distributionManagement>
         <repository>
-            <id>releases</id>
-            <name>Releases</name>
+            <id>2251</id>
+            <name>Devenv</name>
             <url>http://localhost:8081/nexus/content/repositories/releases/</url>
         </repository>
+     <snapshotRepository>
+            <id>deployment</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
        
     </distributionManagement>
   <dependencies>
