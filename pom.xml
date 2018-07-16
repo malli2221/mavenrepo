@@ -32,9 +32,9 @@
             <url>http://localhost:8081/nexus/content/repositories/releases/</url>
         </repository>
      <snapshotRepository>
-            <id>deployment</id>
+            <id>devenv</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+            <url>http://localhost:8081/repository/devsnapshot/</url>
         </snapshotRepository>
        
     </distributionManagement>
